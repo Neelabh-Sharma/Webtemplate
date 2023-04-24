@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(191, 118, 118);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    height: 80%;
+    width: 30%;
+    background-color: #bd6464;
+}
+.left nav>h4{
+    position: absolute;
+    top: 5.2rem;
+    left: 25rem;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #fff;
+}
+.arrow{
+    position: absolute;
+    top: 5rem;
+    left: 12rem;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.text-box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-transform: capitalize;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 10px;
+    align-items: center;
+}
+.text-box>h1{
+    color: transparent;
+    font-family: 'FontAwesome';
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+.para{
+    width: 85%;
+    height: auto;
+    /* background-color: red; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para>p{
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.btn{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.btn>button{
+    width: 30%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn>button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.right{
+    height: 80%;
+    width: 40%;
+    /* background-color: aqua; */
+    background-image: url('./image/pexels-moose-photos-1036623.jpg');
+    background-position: center;
+    background-size: cover;
+}
